@@ -9,8 +9,7 @@ The primary objective of Algoryx is to provide a seamless, interactive platform 
 ## 🌟 Key Features
 
 - **Interactive 3D Viewer**: Seamlessly explore 3D models directly in your browser, powered by Three.js and React Three Fiber.
-- **Secure Authentication**: Complete user login and registration flows built with Supabase, including email verification and user profile management.
-- **Immersive UI/UX**: A stunning interface with glassmorphism elements, micro-animations via Framer Motion, and buttery-smooth scrolling via Lenis.
+- **Immersive UI/UX**: A stunning interface with glassmorphism elements and micro-animations via Framer Motion.
 - **Community-Driven**: Upload, showcase, and discover 3D assets created by other users in the community.
 - **Responsive Design**: Fully optimized for both desktop and mobile experiences using Tailwind CSS.
 
@@ -20,10 +19,8 @@ This project is built using the latest and greatest in the web ecosystem:
 
 - **Framework**: [Next.js 16](https://nextjs.org/) & [React 19](https://react.dev/)
 - **3D Rendering**: [Three.js](https://threejs.org/), [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/), & [@react-three/drei](https://github.com/pmndrs/drei)
-- **Authentication & Backend**: [Supabase](https://supabase.com/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Smooth Scrolling**: [Lenis](https://lenis.studiofreight.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 
 ## 📂 Project Structure
@@ -59,16 +56,7 @@ cd algoryx-3d-web-experience
 npm install
 ```
 
-### 3. Set up environment variables
-
-Create a `.env.local` file in the root directory and add your Supabase credentials:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-### 4. Run the development server
+### 3. Run the development server
 
 ```bash
 npm run dev
